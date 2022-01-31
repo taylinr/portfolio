@@ -80,7 +80,7 @@
 
 .h1,
 h1 {
-  @apply font-serif mb-8 text-xl -ml-4;
+  @apply font-serif mb-8 text-h1 md:text-xl -ml-4 break-words;
 }
 
 p {
@@ -88,7 +88,7 @@ p {
 }
 
 .hover-underline-animation {
-  @apply relative inline-block;
+  @apply relative inline-block ;
 }
 
 .hover-underline-animation:after {
@@ -109,3 +109,6 @@ p {
   transform-origin: bottom left;
 }
 
+html {
+  scroll-behavior: smooth;
+}

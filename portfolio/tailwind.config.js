@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     colors: {
       white: '#FFFFFF',
-      black: '#333333'
+      black: '#333333',
+      blue: '#116d9b'
     },
     fontFamily: {
       'serif': ['Yeseva One', 'serif'],
@@ -17,7 +18,7 @@ module.exports = {
     },
     fontSize: {
       xl: ['86px', '60px'],
-      h1: ['42px', '50px'],
+      h1: ['42px', '76px'],
       h2: ['32px', '44px'],
       h3: ['22px', '30px'],
       h4: ['18px', '24px'],
